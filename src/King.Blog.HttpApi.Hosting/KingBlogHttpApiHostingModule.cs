@@ -20,7 +20,7 @@ namespace King.Blog.HttpApi.Hosting
         {
         //    Configure<AbpDbConnectionOptions>(options =>
         //    {
-        //        options.ConnectionStrings.Default = "..";
+        //        options.ConnectionStrings.Default = "";
         //    });
             base.ConfigureServices(context);
         }
