@@ -30,7 +30,6 @@ namespace King.Blog.HttpApi.Hosting
             //                .Enrich.FromLogContext()
             //                .WriteTo.Async(c => c.File("Logs/logs.txt"))
             //                .CreateLogger();
-
             //            try
             //            {
             //                Log.Information("Starting web host.");
