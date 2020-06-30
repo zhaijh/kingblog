@@ -1,10 +1,11 @@
 ﻿using System;
-using Volo.Abp.Domain.Entities;
+using System.Collections.Generic;
+using System.Text;
 
-namespace King.Blog.Domain.Blog
+namespace King.Blog.Application.Contracts.Blog
 {
-    public class Post : Entity<int>
-    {
+    public class PostDto
+    {      
         /// <summary>
         /// 标题
         /// </summary>
